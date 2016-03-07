@@ -16,7 +16,7 @@ export default function ({types: t}) {
       CallExpression(nodePath, state) {
         if (isModuleDefinition(nodePath.node)) {
           const {
-            Literal: moduleName,
+            StringLiteral: moduleName,
             ArrayExpression: moduleRequirements,
             FunctionExpression: moduleCallback,
             ObjectExpression: moduleObjectDefinition

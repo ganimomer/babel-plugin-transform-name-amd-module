@@ -21,4 +21,5 @@ describe('babel-plugin-transform-name-amd-module', () => {
   it('should add filename to function with deps', () => test('withDeps', {cwd: fixturesPath}))
   it('should use transform function if given', () => test('withTransform', {cwd: fixturesPath, transform: s => s.toUpperCase()}))
   it('should use process.cwd as default if no cwd is given', () => test('defaultCwd'))
+  it('should not replace module name if it exists', () => test('moduleNameExists'))
 })

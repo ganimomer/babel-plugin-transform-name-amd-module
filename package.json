@@ -27,7 +27,9 @@
   },
   "eslintConfig": {
     "extends": "wix-editor/node",
-    "parserOptions": {"sourceType": "module"}
+    "parserOptions": {
+      "sourceType": "module"
+    }
   },
   "keywords": [
     "babel-plugin",
