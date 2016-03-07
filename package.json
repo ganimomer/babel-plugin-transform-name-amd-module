@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-name-amd-module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "transform anonymous amd modules to named amd modules",
   "license": "MIT",
   "main": "lib/index.js",
